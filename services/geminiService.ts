@@ -2,9 +2,9 @@
 import { GoogleGenAI, Modality } from "@google/genai";
 import type { GeneratedContent } from '../types';
 
-if (!process.env.API_KEY) {
-  throw new Error("API_KEY environment variable is not set.");
-}
+// if (!process.env.API_KEY) {
+//   throw new Error("API_KEY environment variable is not set.");
+// }
 
 // const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 const ai = new GoogleGenAI({ apiKey: 'AIzaSyDgieioazC_z6B1AXzDvtjDm1IA9NtmeDI' });
